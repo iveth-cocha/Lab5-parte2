@@ -1,0 +1,247 @@
+
+/*RESOLUCION PARA MOVILES*/
+
+@media (min-width: 400px) and (max-width: 767px){
+  body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+
+  .container {
+    position: relative;
+    display: flex;
+    width: 700px;
+    height: 200px;
+  }
+
+  .box {
+    background-color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    padding-left: 30px;
+  }
+
+  .box-top {
+    top: 25%;
+    left: 20%;
+    box-shadow: 0px 5px red inset;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .box-left {
+    top: 150%;
+    left: 20%;
+    box-shadow: 0px 5px cyan inset;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .box-right {
+    top: 275%;
+    left: 20%;
+    box-shadow: 0px 5px blue inset;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .box-bottom {
+    top: 400%;
+    left: 20%;
+    box-shadow: 0px 5px orange inset;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .header {
+    text-align: center;
+  }
+
+  h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin: -200px;
+    margin-left: -200px;
+  }
+
+  h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin: 220px;
+  }
+
+  p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    margin: -200px;
+  }
+
+  .box-top img{
+    width: 50px;
+    height: 50px;
+    margin-left: 230px;
+  }
+
+  .box-left img{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 230px;
+  }
+
+  .box-right img{
+    width: 50px;
+    height: 50px;
+    margin-left: 230px;
+  }
+
+  .box-bottom img{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 230px;
+  }
+
+  #Texto1{
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  #Texto2{
+    font-size: 10px;
+  }
+
+  .Integrantes{
+    position: absolute;
+    left: 100px;
+    top: 1350px;
+  }
+}
+
+/*RESOLUCION PARA COMPUTADORAS*/
+
+@media (min-width: 991px) {
+  body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+
+  .container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+  }
+
+  .box {
+    background-color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    padding-left: 30px;
+    margin-top: 40px;
+  }
+
+  .box-top {
+    top: 0%;
+    right: 7%;
+    box-shadow: 0px 5px red inset;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .box-left {
+    top: 40%;
+    right: 110%;
+    box-shadow: 0px 5px cyan inset;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .box-right {
+    top: 40%;
+    left: 100%;
+    box-shadow: 0px 5px blue inset;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .box-bottom {
+    top: 80%;
+    right: 7%;
+    box-shadow: 0px 5px orange inset;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .header {
+    text-align: center;
+    margin: -250px;
+    margin-right: -200px;
+  }
+
+  h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 34px;
+  }
+
+  h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+  }
+
+  p{
+    font-size: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #adadad;
+  }
+
+  .box-top img{
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 230px;
+  }
+
+  .box-left img{
+    width: 80px;
+    height: 80px;
+    margin-top: 40px;
+    margin-left: 230px;
+  }
+
+  .box-right img{
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 230px;
+  }
+
+  .box-bottom img{
+    width: 80px;
+    height: 80px;
+    margin-top: 40px;
+    margin-left: 230px;
+  }
+
+  #Texto1{
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  #Texto2{
+    font-size: 15px;
+  }
+
+  .Integrantes{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 350px;
+  }
+}
